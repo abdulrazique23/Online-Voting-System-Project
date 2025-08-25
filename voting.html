@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Voting Page</title>
+</head>
+<body>
+    <header>
+        <h1>Online Voting System</h1>
+    </header>
+    <div class="voting-container">
+        <h2>Vote for Your Favorite Candidate</h2>
+        <div class="candidates-list">
+            <div class="candidate">
+                <input type="radio" name="candidate" id="candidate1" value="1">
+                <label for="candidate1" title="Vote for BJP">
+                    <img src="bjp.jpg" alt="BJP" class="party-logo">
+                    BJP (Bharatiya Janata Party)
+                </label>
+            </div>
+            <div class="candidate">
+                <input type="radio" name="candidate" id="candidate2" value="2">
+                <label for="candidate2" title="Vote for Congress">
+                    <img src="congress.png" alt="Congress" class="party-logo">
+                    Indian National Congress
+                </label>
+            </div>
+            <div class="candidate">
+                <input type="radio" name="candidate" id="candidate3" value="3">
+                <label for="candidate3" title="Vote for AAP">
+                    <img src="aap.jpg" alt="AAP" class="party-logo">
+                    AAP (Aam Aadmi Party)
+                </label>
+            </div>
+        </div>
+        <button id="submitVote" aria-label="Submit your vote">Submit Vote</button>
+        <div id="messageArea"></div> <!-- Message area for feedback -->
+    </div>
+    <footer>
+        <p>&copy; 2023 Online Voting System</p>
+    </footer>
+    <script src="voting.js"></script>
+</body>
+</html>
