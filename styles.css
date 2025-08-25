@@ -1,0 +1,142 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa; /* Changed to a solid color for better readability */
+    background-image: url('img%20OVS.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* Ensured header color is consistent */
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0056b3;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Changed to a consistent green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#signupButton {
+    background-color: #28a745;
+    margin-top: 10px;
+}
+
+#signupButton:hover {
+    background-color: #218838;
+}
+
+.voting-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.candidates-list {
+    margin: 20px 0;
+}
+
+.candidate {
+    margin: 15px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.candidate input[type="radio"] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff;
+}
+
+.candidate label {
+    font-size: 1.1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.party-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid #ddd;
+}
+
+.candidate:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#submitVote {
+    margin-top: 20px;
+    background-color: #28a745; /* Ensured button color is consistent */
+}
+
+#submitVote:hover {
+    background-color: #218838;
+}
